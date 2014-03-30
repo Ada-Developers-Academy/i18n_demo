@@ -1,0 +1,31 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello Adies!"
+  thanks_for_visiting: "Thanks for visiting!"
+  hello_name: 'Hello, %{name}!'
+  inbox:
+    zero: 'You have no messages'
+    one: 'You have one message'
+    other: 'You have %{count} messages'
+  welcome_index:
+    intro_paragraph_one: "Craft beer plaid artisan jean shorts, kitsch farm-to-table photo booth Tumblr. Typewriter meggings bicycle rights try-hard bespoke, craft beer put a bird on it. Shoreditch 8-bit Godard Tumblr art party umami, artisan shabby chic cray ethnic Neutra. Banjo paleo meh, mixtape cliche vegan McSweeney's fixie actually. Messenger bag mlkshk pour-over, drinking vinegar freegan lomo meggings keffiyeh street art paleo fap cred. Meh 8-bit banh mi kale chips, retro authentic deep v tattooed raw denim cardigan. Street art swag iPhone mumblecore, flannel drinking vinegar post-ironic pour-over meh Cosby sweater put a bird on it authentic chia."
